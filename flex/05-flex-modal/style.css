@@ -15,12 +15,35 @@ body {
   justify-content: center;
 }
 
-.modal {
+.modal{
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding:10px;
+  /* align-items: center; */
+  /* justify-content: center; */
 }
+
+.close{
+  padding:10px;
+}
+
+.messages{
+  margin:10px;
+}
+
+.messages .header{
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+/* 
+.messages .text{
+  
+} */
+
 
 .icon {
   color: royalblue;
@@ -49,7 +72,7 @@ body {
 }
 
 button {
-  padding: 8px 16px;
+  padding: 10px 16px;
   border-radius: 8px;
 }
 
